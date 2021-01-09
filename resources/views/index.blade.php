@@ -12,7 +12,7 @@
   </head>
   <body>
   	<div class="container">
-	    <h1>何敏煌的期末作業</h1>
+	    <h1>$email</h1>
 	    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">J107001119</a>
@@ -33,7 +33,10 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/register/" tabindex="-1" aria-disabled="true">註冊</a>
-        </li>        
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="/forgot-password/">忘記密碼</a>
+        </li>       
         @endguest
         @auth
         <li class="nav-item">
